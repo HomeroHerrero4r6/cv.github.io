@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--========== BOX ICONS ==========-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+        <!--========== CSS ==========-->
+        <link rel="stylesheet" href="css/style.css">
+
+        <title>Responsive resume cv</title>
+    </head>
+    <body>
+        <!--========== HEADER ==========-->
+        <header class="l-header" id="header">
+            <nav class="nav bd-container">
+                <a href="#" class="nav__logo">Homer</a>
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active-link"><i class='bx bxs-home nav__icon' ></i>Home</a></li>
+                        <li class="nav__item"><a href="#profile" class="nav__link"><i class='bx bxs-home nav__icon' ></i>Profile</a></li>
+                        <li class="nav__item"><a href="#education" class="nav__link"><i class='bx bxs-home nav__icon' ></i>Education</a></li>
+                        <li class="nav__item"><a href="#experience" class="nav__link"><i class='bx bxs-home nav__icon' ></i>Experience</a></li>
+                    </ul>
+                </div>
+                <div class="nav__toggle" id="nav-toggle"><i class='bx bx-menu' ></i></div>
+            </nav>
+        </header>
+
+        <main class="l-main bd-container">
+            <!-- All elements within this div, is generated in PDF -->
+            <div class="resume" id="area-cv">
+                <div class="resume__left">
+                    <!--========== HOME ==========-->
+                    <section class="home" id="home">
+                        <div class="home" id="home">
+                            <div class="home__container section bd-grid">
+                                <div class="home__data bd-grid">
+                                    <img src="img/profile.png" alt="" class="home__img">
+                                    <h1 class="home__title">Herrero Homero</h1>
+                                    <h3 class="home__profession">Web Developer</h3>
+                                    <div>
+                                        <a download="" href="pdf/ResumeCv.pdf" class="home__button-movil">Dowloand CV</a>
+                                    </div>
+                                </div>
+                                <div class="home__adress bd-grid">
+                                    <span class="home__information">
+                                        <i class='bx bxs-map nav__icon home__icon' ></i> Córdoba Argentina
+                                    </span>
+                                    <span class="home__information">
+                                        <i class='bx bxs-comment-detail nav__icon home__icon' ></i> herrerohomero@gmail.com
+                                    </span>
+                                    <span class="home__information">
+                                        <i class='bx bxs-phone nav__icon home__icon' ></i> +54 351-2425436
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Theme change button -->
+                        <i class='bx bx-moon change-theme' title="Theme" id="theme-button" ></i>
+    
+                        <!-- Button to generate and download the pdf. Available for desktop. -->
+                        <i class='bx bxs-download generate-pdf' title="Generate PDF" id="resume-button" ></i>
+                    </section>          
+                    
+                    <!--========== SOCIAL ==========-->
+                    <section class="social section">
+                        <h2 class="section-title">Social</h2>
+                        <div class="social__container bd-grid">
+                            <a href="" target="_blank" class="social-link">
+                                <i class='bx bxl-github' ></i> https://github.com/HomeroHerrero4r6
+                            </a>
+                        </div>
+                        
+                    </section>
+
+                    
+                    <!--========== EDUCATION ==========-->
+                    <section class="education section" id="education">
+                        <h2 class="section-title">Education</h2>
+                        <div class="education__container bd-grid">
+                            <div class="education__content">
+                                <div class="education__time">
+                                    <span class="education__rounder"></span>
+                                    <span class="education__line"></span>
+                                </div>
+                                <div class="education__data bd-grid">
+                                    <h3 class="education__title">Bachelor of Economics Cience</h3>
+                                    <span class="education__studies">ITyOPAS v. Allende</span>
+                                    <span class="education__year">2015-2017</span>
+                                </div>
+                            </div>
+                            <div class="education__content">
+                                <div class="education__time">
+                                    <span class="education__rounder"></span>
+                                    <span class="education__line"></span>
+                                </div>
+                                <div class="education__data bd-grid">
+                                    <h3 class="education__title">Computer Cience</h3>
+                                    <span class="education__studies">FamaFyC University of CBA</span>
+                                    <span class="education__year">2018-2020</span>
+                                </div>
+                            </div>
+                            <div class="education__content">
+                                <div class="education__time">
+                                    <span class="education__rounder"></span>
+                                    <span class="education__line"></span>
+                                </div>
+                                <div class="education__data bd-grid">
+                                    <h3 class="education__title">FULL STACK BOOTCAMP</h3>
+                                    <span class="education__studies">Henry</span>
+                                    <span class="education__year">2020-2021</span>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+                <div class="resume__right">
+                    <!--========== EXPERIENCE ==========-->
+                    <!--========== PROFILE ==========-->
+                    <section class="profile section" id="profile">
+                        <h2 class="section-title">Profile</h2>
+                        <p class="profile__description">My best quality is that I always go to the end with whatever I do and I like everything to be clean and correct. In the last time I was investigating the world of devops and getting familiar with linux</p>
+                    </section>
+                    
+                    <section class="experience section" id="experience">
+                        <section class="experience section" id="experience">
+                            <h2 class="section-title">Experience</h2>
+                            <div class="experience__container bd-grid">
+                                <div class="experience__content">
+                                    <div class="experience__time">
+                                        <span class="experience__rounder"></span>
+                                        <span class="experience__line"></span>
+                                    </div>
+                                    <div class="experience__data bd-grid">
+                                        <h3 class="experience__title">Freelance Web Developer</h3>
+                                        <span class="experience__company">2020 | Freelance Web Developer</span>
+                                        <p class="experience__description">Throughout the year 2020 after the blockade I am interested in web development technologies, I always pass them, but seeing how the number of frameworks and content to consume grew, I decided to start using them, I took different courses on web platforms such as PLATZI, CodelyTv. Also participate in some projects sporadically as a freelance developer using React.js.</p>
+                                    </div>
+                                </div>
+                                <div class="experience__content">
+                                    <div class="experience__time">
+                                        <span class="experience__rounder"></span>
+                                        <span class="experience__line"></span>
+                                    </div>
+                                    <div class="experience__data bd-grid">
+                                        <h3 class="experience__title">Full stack Developer</h3>
+                                        <span class="experience__company">From 2020 To 2021 </span>
+                                        <p class="experience__description">At the end of 2020 I decide to enter Henry a Bootcamp that focuses on web development with Technologies based on
+                                            Javascript, although I already knew the technologies that were taught, I was interested in how intensive the study plan was and the community that, well used, has no limits for learning. We learned to work with agile methodologies and to be in various high-level projects.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        
+                    </section>
+                    <!--========== SKILLS  ==========-->
+                    <section class="skills section" id="skills">
+                        <h2 class="section-title">Skills</h2>
+                        <div class="skills__content bd-grid">
+                            <ul class="skills_data">
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span>Fontend: (React.js, Angular)
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span>Node.js:(Advanced knowledge of the most used libraries, Frameworks and their operation and implementation)
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span>Css:(Sass,Bootstrap)
+                                </li>
+                            </ul>
+                            <ul class="skills_data">
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span>Databases:(MongoDB,PostgreSQL,Mysql)
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span>Typescript
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span>React Native
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+                    <!--========== LANGUAGES ==========-->
+                    <section class="languages section">
+                        <h2 class="section-title">languages</h2>
+                        <div class="languages__container">
+                            <ul class="languages__content bd-grid">
+                                <li class="languages__name">
+                                    <span class="languages__circle"></span>Spanish (Native)
+                                </li>
+                                <li class="languages__name">
+                                    <span class="languages__circle"></span>English (Conversational)
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+                </div>
+            </div>        
+        </main>
+
+        <!--========== SCROLL TOP ==========-->
+        
+        <a href="" class="scrolltop" id="scroll-top">
+            <i class='bx bxs-arrow-to-top scrolltop__icon' ></i>
+        </a>
+        <!--========== HTML2PDF ==========-->
+        <script src="js/html2pdf.bundle.min.js"></script>
+
+        <!--========== MAIN JS ==========-->
+        <script src="js/main.js"></script>
+    </body>
+</html>
